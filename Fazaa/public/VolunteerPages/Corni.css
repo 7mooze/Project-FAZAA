@@ -1,0 +1,124 @@
+.header
+{
+	display: flex;
+	 border: 1px solid #650416;
+	/*background-color: #650417;*/
+}
+
+.header_Items
+{
+	font-color: Black;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.flex-container{
+	border: 1px solid #650416;
+	margin: 30px 0px 0px 0px ;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {margin: 20 -20px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.column {
+	position: absolute;
+  width: 15%;
+  padding: 5px 2px;
+	margin: 50px 210px
+}
+
+.column2 {
+	position: absolute;
+  width: 15%;
+  padding: 5px 2px;
+	margin: 50px 470px
+}
+
+.column3 {
+position: absolute;
+  width: 15%;
+  padding: 5px 2px;
+	margin: 50px 730px
+}
+
+.column4 {
+position: absolute;
+  width: 15%;
+  padding: 5px 2px;
+	margin: 50px 990px
+}
+
+.veet{
+	margin: 2px 320px;
+margin-top: -100px;
+font-family: arial;
+}
+
+.descript {
+	position: absolute;
+	font-family: arial;
+margin: 230px 100px
+}
+
+.inform {
+	position: absolute;
+	font-family: arial;
+margin: 280px 200px
+}
+
+.Regist {
+  background-color: #650416;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 679px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }

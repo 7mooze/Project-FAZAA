@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/__/firebase/7.15.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.15.0/firebase-auth.js"></script>
+    <script src="/__/firebase/7.15.0/firebase-firestore.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <title>Admin Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="home.js"></script>
+    <script src="AdminHome.js"></script>
+  </head>
+  <body>
+    <iframe src="headerAdmin.html" style="border:none;height:111px;width:100%;"></iframe>
+    <div class="flex-container">
+      <button class="button" id="hs1" type="button" onclick="hideShow(events_div, hs1)">Hide</button>
+      <label class="header_ItemsAdmin">Fazaa Events</label>
+      <!--<button class="editbutton" type="button" onclick="window.location.href='VolunteerPages/CornicheBeach.html'">Add Event</button>-->
+      <div class="row" id="events_div">
+      </div>
+      <button class="button" id="hs2" type="button" onclick="hideShow(database, hs2)">Show</button>
+      <label class="header_ItemsAdmin">Students Database</label>
+      <div id="database">
+        <table id="table1">
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>School</th>
+            <th>Class</th>
+            <th>Hours</th>
+            <th>History</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
