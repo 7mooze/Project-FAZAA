@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style> /* logo and header_items are not used, but keep them there if they are ever needed. */
+			body
+			{
+				margin: 0px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 0px;
+				margin-right: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+			}
+			.logo
+			{
+				padding: 15px 0px 0px 15px; /* Top, Right, Bottom, Left */
+			}
+			.header
+			{
+				display: flex;
+				flex-wrap: wrap;
+				border: 1px solid #650416;
+				background-color: white;
+				margin-bottom: 30px;
+                overflow-x: auto;
+			}
+			.header_Items
+			{
+				/* font-color: Black; */
+				margin-left: 35px;
+				margin-top: 25px;
+				font-size: 20px;
+			}
+			ul
+			{
+				list-style-type: none;
+				padding-left: 30px;
+				margin: 10px;
+				background-color: white;
+                width: 100%;
+			}
+
+			li
+			{
+				position: relative;
+				top: 15px;
+				text-align: center;
+				display: inline;
+				padding: 0px 15px; /* Top, Right, Bottom, Left */
+				font-size: 20px;
+			}
+            a
+            {
+              text-decoration: none;
+            }
+            #liAdM
+            {
+              display: none;
+            }
+            
+            button
+            {
+              text-decoration: none;
+              border: none;
+              background-color: white;
+              font-size: 20px;
+            }
+          
+            @media screen and (max-width: 600px)
+            {
+              ul
+              {
+                padding-left: 0px;
+                margin: 0px 0px 0px 10px;
+              }
+              
+              li
+              {
+                padding: 0px 5px;
+                font-size: 14px;
+              }
+              
+              img
+              {
+                width: 48px;
+                height: 48px;
+              }
+            }
+		</style>
+        <script>
+		  function logOut()
+		  {
+		    firebase.auth().signOut();
+		  }
+        </script>
+        <script src="/__/firebase/7.15.0/firebase-app.js"></script>
+        <script src="/__/firebase/7.15.0/firebase-auth.js"></script>
+        <script src="/__/firebase/7.15.0/firebase-firestore.js"></script>
+        <script src="/__/firebase/init.js"></script>
+  </head>
+  <body style="margin:0px;">
+	<div class="header">
+		<div><img src="img/Fazaa_logo.jpg" alt="Fazaa Logo" width="71" height="67"></div>
+		<div>
+			<ul id="uul">
+				<li><a href="home.html" target="_top" id="id1">Home</a></li>
+                <li id="pp"><a href="ProfilePage.html" target="_top" id="id2">Profile</a></li>
+				<!--<li><a href="settings.html" target="_top" id="id3">Settings</a></li>-->
+				<li><button onclick="logOut()">Log out</button></li>
+			</ul>
+		</div>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/__/firebase/7.8.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.8.0/firebase-auth.js"></script>
+    <script src="/__/firebase/7.8.0/firebase-firestore.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="pp.css">
+    <title>Profile Page</title>
+    <script src="home.js"></script>
+  </head>
+  <body>
+    <iframe src="headerStudent.html" style="border:none;height:111px;width:100%;"></iframe>
+    <div id="main">
+      <div class="box">
+        <!--<div id="image"><img id="Profile_picture" src="img/blank-profile-picture.png" alt="DefaultPP" width="96" height="95"> </div>-->
+        <div id="ppNAME_"><h2 id="ppNAME"></h2></div>
+      </div>
+      <div id="data">
+        <div class="Student_Data">
+          <table id="stTable">
+            <tbody>
+              <tr><th colspan="2">Student Data</th></tr>
+              <tr>
+                <th>First Name</th>
+                <td id="Fname_field"></td>
+              </tr>
+              <tr>
+                <th>Last Name</th>
+                <td id="Lname_field">&nbsp;</td>
+              </tr>
+              <tr>
+                <th>ID Number</th>
+                <td id="ID">&nbsp;</td>
+              </tr>
+              <tr>
+                <th>School</th>
+                <td id="School">&nbsp;</td>
+              </tr>
+              <tr>
+                <th>Grade</th>
+                <td id="Grade">&nbsp;</td>
+              </tr>
+              <tr>
+                <th>Cluster</th>
+                <td id="Cluster">&nbsp;</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td id="Email">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="Student_Data" id="vol">
+          <table>
+            <tbody>
+              <tr><th colspan="2">Volunteering Data</th></tr>
+              <tr>
+                <th>No. of Hours completed</th>
+                <td id="hrs"&nbsp;></td>
+              </tr>
+              <tr>
+                <th>History</th>
+                <th><button class="button" type="button" onclick="window.location.href='HistoryPage.html'">Click to view</button></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="pp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="/__/firebase/7.15.0/firebase-app.js"></script>
+        <script src="/__/firebase/7.15.0/firebase-auth.js"></script>
+        <script src="/__/firebase/7.15.0/firebase-firestore.js"></script>
+        <script src="/__/firebase/init.js"></script>
+		<script src="home.js"></script>
+		<script src="adminHistory.js"></script>
+		<link rel="stylesheet" type="text/css" href="history.css">
+		<title>History List</title>
+	</head>
+	<body>
+		<iframe src="headerAdmin.html" style="border:none;height:111px;width:100%;"></iframe>
+		<h2 id="ppNAME"></h2>
+        <div style="overflow-x:auto;">
+		<table id="table1">
+			<tr>
+				<th>Date</th>
+				<th>Supervisor</th>
+				<th>Event</th>
+				<th>Location</th>
+				<th>Hour contributed</th>
+			</tr>
+		</table>
+      </div>
+	</body>
+</html>

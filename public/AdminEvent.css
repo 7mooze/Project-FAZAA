@@ -1,0 +1,259 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px;
+  font-size: 18px;
+}
+
+.main
+{
+  display: flex;
+  border: 1px solid #650416;
+  padding: 30px 13%; /*27%*/
+  color: Black;
+}
+
+#add-event-form
+{
+  display: flex;
+  /*border: 1px solid #650416;*/
+  padding: 15px;
+  width: 100%;
+}
+
+#details
+{
+  border: 1px solid #650416;
+  padding: 30px;
+  margin: 15px;
+  width: 50%;
+}
+
+input, select, textarea
+{
+  width: 99%;
+  padding: 5px 4px;
+  margin: 5px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+input[type="submit"], button
+{
+  width: auto;
+  background-color: #650416;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+button
+{
+  padding: 4px 12px;
+}
+
+textarea
+{
+  height: 100px;
+}
+
+@media screen and (max-width: 600px)
+{
+  #add-event-form
+  {
+    flex-direction: column;
+    padding: 0px;
+  }
+  
+  .main
+  {
+    padding: 4%;
+  }
+  
+  #details
+  {
+    padding: 4%;
+    margin: 3px 0px;
+    width: auto;
+  }
+}
+/* Original CSS */
+/*
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+div50 {
+  opacity: 0.5;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  /* position: absolute;
+    top: 40px;
+    right: 40px; */ /*
+}
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, p { 
+    padding: 0;
+    margin: auto;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+    h1 {
+    margin: 15px 0;
+    font-weight: 400;
+    text-align: center;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+    }
+    form {
+    width: 50%;
+    padding: 30px;
+    background: #d7f3fcc2;
+    box-shadow: 0 2px 5px #ccc; 
+    border-radius: 20px;
+    }
+    input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    }
+    input:hover, select:hover, textarea:hover {
+    outline: none;
+    border: 1px solid #095484;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    }
+    select {
+    width: 100%;
+    max-width: 100%;
+    padding: 7px 0;
+    /* background: transparent; */ /*
+    }
+    textarea {
+    width: calc(100% - 1px);
+    }
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color: #a9a9a9;
+    }
+    .item i {
+    right: 2%;
+    top: 30px;
+    z-index: 1;
+    }
+    [type="date"]::-webkit-calendar-picker-indicator {
+    right: 1%;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    }
+    .btn-block {
+    margin-top: 20px;
+    text-align: center;
+    }
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #0666a3;
+    }
+
+    *:focus {
+        outline: 1px solid;
+      }
+      
+      .control {
+        margin: 6px 0;
+      }
+      
+      input {
+        display: inline-block;
+        
+        vertical-align: top;
+      }
+      
+      svg#definition {
+        display: none;
+      }
+      
+      .icon {
+        width: 0.5em;
+        height: 0.5em;
+        fill: red;
+        vertical-align: top;
+      }
+*/

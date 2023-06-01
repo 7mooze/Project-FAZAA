@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main
+{
+  border: 1px solid #650416;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+
+#data
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+	
+}
+
+#profile_info{
+
+}
+
+#image{
+
+}
+
+.Student_Data{
+  overflow-x: auto;
+  width: 30%;
+}
+
+#vol{
+  margin-left: 80px;
+  overflow-x: auto;
+}
+
+table, th, td
+{
+  border: 1px solid #dddddd;
+}
+
+table
+{
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+th, td
+{
+  text-align: left;
+  padding: 10px;
+}
+
+th
+{
+  text-align: center;
+}
+
+.button
+{
+  color: white;
+  background-color: #650416;
+  border: none;
+  padding: 8px;
+}
+
+@media screen and (max-width: 600px)
+{
+  #data
+  {
+    flex-direction: column;
+  }
+  
+  #ppNAME_
+  {
+    text-align: center;
+  }
+  
+  table
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Student_Data
+  {
+    width: 100%;
+  }
+  
+  #vol
+  {
+    margin-left: 0px;
+  }
+}
