@@ -1,0 +1,53 @@
+Login (Students)
+  Events (page after login)
+    Specific Event Page
+  Profile
+  Settings
+    Switch to dark mode (this was a joke)
+
+Login (Counselor)
+  Events (page after login)
+    Specific Event Page
+    Event creation page/form
+      picture or default
+      event title
+      max no. of volunteer
+      Start date/end date
+      Location
+      Hours credited
+  Profile
+  Students Database
+  Settings
+    Switch to dark mode
+
+Login (Supervisor)
+  Events (page after login)
+    Specific Event Page
+      Verification Form
+  Profile
+  Settings
+    Switch to dark mode
+
+-Login: Contains two fields for the username and password. No "Forgot Password" 
+[Incase if they forgot they'll have to contact their supervisor]
+
+-Events (Students): Contains the events the student is enrolled in with supervisor info. 
+Then events he can enrol in. Events can be filtered by location, date and number of volunteers.
+
+-Specific Event Page (Students): Contains the event's information such as title, a picture or logo, number of registered volunteers/max number 
+of volunteers with a progress bar.
+
+-Profile (Students): Contains the information of the student such as the name, age, school or college, grade if in school/year 
+in college and hours volunteered.
+
+-Settings: One page with all the settings split by catergories, each catergory has 
+its save button. Personal information such as First Name, Last Name, Date of Birth, these fields are uneditable and require a counselor to change them. Email Options such as a field for the primary email (which is the work email and cannot be changed) and a secondary email which can be set later. Lastly, there is a switch for dark mode.
+
+-Events (Supervisor): Contains the events that the supervisor has a role in. 
+Supervisors are given their role in an event by the counselor.
+
+-Specific Event Page (Supervisor): Contains the event's information such as title, 
+a picture or logo, number of registered volunteers/max number of volunteers with a progress bar. 
+There is a button at the bottom of the page for the verification form.
+
+-Verification Form: 
